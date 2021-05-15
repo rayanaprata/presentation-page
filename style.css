@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+/*
+
+Colors:
+
+white #fff
+mint cream #effffa
+alice blue #e5ecf4
+lavender blue #c3bef7
+medium state blue #8a4fff
+
+lilás do funo ##b38ffe
+roxinho escuro #9363f9
+
+*/
+
+*::selection {
+  background: #a581f5;
+  color: #fff;
+}
+
+body {
+  text-align: center;
+  background-color: #e3d9f7;
+}
+
+#title {
+  color: #4c1daa;
+  margin: 10px;
+  margin-bottom: 15px;
+}
+
+#name {
+  color: #8a5af0;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+p {
+  color: #6127dd;
+}
+
+.box {
+  background-color: #d3ccf7;
+  border-radius: 15px;
+  margin: 10vh 40px 0 40px;
+  padding-top: 12px;
+  padding-bottom: 20px;
+  box-shadow: 4px 4px 20px 0px rgba(80, 80, 80, 0.48);
+}
+
+#biografia {
+  background-color: #ebe8f7;
+  border-radius: 10px;
+  font-family: Roboto;
+  font-size: 13px;
+  margin: 0 20px 0 20px;
+  padding: 10px;
+  text-align: left;
+}
+
+.contact {
+  background-color: #ebe8f7;
+  border-radius: 10px;
+  color: #8a5af0;
+  font-family: Roboto;
+  font-size: 12px;
+  margin: 30px 20px 0 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+svg {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #8a5af0;
+}
+
+.link {
+  margin: 0 15px 0 15px;
+}
+
+#name-link {
+  margin: 0 0 0 5px;
+}
+
+@media (min-width: 700px) {
+  .box {
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .box {
+    margin-right: 250px;
+    margin-left: 250px;
+  }
+}
+
+@media (min-width: 1320px) {
+  .box {
+    margin-right: 400px;
+    margin-left: 400px;
+  }
+
+  .link {
+    margin-right: 30px;
+  }
+}
